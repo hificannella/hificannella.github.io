@@ -1,0 +1,23 @@
+:root {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* variables */
+
+:root {
+    --bg-primary: black;
+    --bg-seconday: #fff;
+    --ac-primary: #fff;
+    --ac-secondary: #fff;
+    --transition-speed: all 400ms ease-out;
+}
+
+/* General */
+
+body {
+    color: white;
+    background-color: var(--bg-primary);
+    margin: 0;
+    padding: 0;
+}
