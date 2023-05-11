@@ -1,5 +1,4 @@
 :root {
-    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -15,14 +14,11 @@
 
 /* General */
 
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* Navigation Bar */
+/* Navigation Bar https://www.youtube.com/watch?v=k-jwXwpNuXI */
 
-.navbar ul {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-}
