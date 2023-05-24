@@ -9,7 +9,7 @@
     --bg-secondary: #222;
     --ac-primary: yellow;
     --ac-secondary: #fff;
-    --transition-speed: 400ms ease-out;
+    --transition-speed: 200ms ease-out;
 }
 
 /* General */
@@ -25,81 +25,55 @@ body {
 
 /* Navigation Bar */
 
-.navbar {
-    width: 100%;
-    height: 3rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 1vw;
-    place-items: center;
-    justify-content: space-evenly;
-    grid-auto-flow: dense;
-    background: var(--bg-primary);
-    transition: var(--transition-speed);
-}
-
-.navbar-item {
-    grid-row: 1;
-}
-
-.navbar-item a:hover {
-    color: var(--ac-secondary);
-    transition: var(--transition-speed);
-}
-
-.navbar-item a {
+.nav-menu-item {
+    display: block;
+    margin: 1vh;
+    font-size: 1.5rem;
+    color: white;
     text-decoration: none;
-    color: var(--ac-primary);
-    text-transform: uppercase;
+    text-align: center;
+}
+  
+.menu-item:hover {
+    text-decoration: underline;
+}
+  
+.nav-hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1vh;
+    right: 1vh;
+    background: none;
+    cursor: pointer;
+    border: none;
+    padding: 1vh;
 }
 
-.navbar-item:nth-child(1) {
-    grid-column: 1;
-    justify-self: start;
-    padding-left: 1rem;
+.nav-hamburger .nav-menu-icon i img {
+    height: 100px;
 }
-
-.navbar-item:nth-child(6) {
-    justify-self: end;
-    padding-right: 1rem;
+  
+.nav-close-icon {
+    display: none;
 }
-
-.navbar-item:nth-child(7) img {
-    height: 4rem;
+  
+.nav-menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: var(--transition-speed);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
 }
-
-@media only screen and (min-width: 600px) {
-    .navbar-item:nth-child(7) {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .navbar {
-        height: 5rem;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .navbar-item:nth-child(2) {
-        display: none;
-    }
-    .navbar-item:nth-child(3) {
-        display: none;
-    }
-    .navbar-item:nth-child(4) {
-        display: none;
-    }
-    .navbar-item:nth-child(5) {
-        display: none;
-    }
-    .navbar-item:nth-child(6) {
-        display: none;
-    }
-    .navbar-item:nth-child(7) {
-        justify-self: end;
-        padding-right: 1rem;
-    }
+  
+.nav-show-menu {
+    transform: translateY(0);
 }
 
 /* Main Content */
