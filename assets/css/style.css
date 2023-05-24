@@ -25,6 +25,10 @@ body {
 
 /* Navigation Bar */
 
+.nav-logo img {
+    filter: invert(1);
+}
+
 .nav-container {
     top: 0;
     width: 100%;
@@ -38,6 +42,7 @@ body {
     align-content: center;
     justify-items: center;
     justify-content: center;
+    background-color: var(--bg-primary);
 }
 
 .nav-item:nth-child(1) {
@@ -60,6 +65,7 @@ body {
     background: none;
     cursor: pointer;
     border: none;
+    vertical-align: bottom;
 }
 
 .nav-hamburger img {
@@ -88,12 +94,13 @@ body {
 
 .nav-menu-item {
     display: block;
-    font-size: 1rem;
-    margin: 1vh;
+    font-size: 1.2rem;
+    margin-bottom: 3vh;
     color: white;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
     transition: var(--transition-speed);
 }
 
@@ -120,3 +127,6 @@ main {
     background: var(--bg-secondary);
     margin-top: 9vh;
 }
+
+/* section 1 */
+
