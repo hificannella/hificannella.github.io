@@ -5,10 +5,7 @@
 /* variables */
 
 :root {
-    --bg-primary: #000;
-    --bg-secondary: #222;
     --ac-primary: yellow;
-    --ac-secondary: #fff;
     --transition-speed: 200ms ease-out;
 }
 
@@ -24,7 +21,7 @@ a {
 }
 
 body {
-    background: var(--bg-secondary);
+    background: black;
 }
 
 /* Navigation Bar */
@@ -46,7 +43,7 @@ body {
     align-content: center;
     justify-items: center;
     justify-content: center;
-    background-color: var(--bg-primary);
+    background-color: black;
 }
 
 .nav-item:nth-child(1) {
@@ -128,7 +125,7 @@ body {
 main {
     width: 100%;
     height: 100%;
-    background: var(--bg-secondary);
+    background: black;
     margin-top: 5vh;
 }
 
