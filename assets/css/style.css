@@ -199,7 +199,7 @@ main {
     border-radius: 4vh;
     border: none;
     padding: 1% 5vh;
-    background: var(--bg-primary);
+    background: black;
     color: white;
     text-align: center;
 }
@@ -208,7 +208,8 @@ main {
     height: 4vh;
     border-radius: 4vh;
     padding: 1% 5vh;
-    background: var(--ac-secondary);
-    border: solid var(--bg-primary);
+    background: white;
+    border: solid black;
     text-align: center;
+    color: black;
 }
