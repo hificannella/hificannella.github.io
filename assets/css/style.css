@@ -25,38 +25,6 @@ body {
 
 /* Navigation Bar */
 
-.nav-menu-item {
-    display: block;
-    margin: 1vh;
-    font-size: 1.5rem;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-}
-  
-.menu-item:hover {
-    text-decoration: underline;
-}
-  
-.nav-hamburger {
-    position: fixed;
-    z-index: 100;
-    top: 1vh;
-    right: 1vh;
-    background: none;
-    cursor: pointer;
-    border: none;
-    padding: 1vh;
-}
-
-.nav-hamburger .nav-menu-icon i img {
-    height: 100px;
-}
-  
-.nav-close-icon {
-    display: none;
-}
-  
 .nav-menu {
     position: fixed;
     transform: translateY(-100%);
@@ -71,6 +39,58 @@ body {
     list-style: none;
     padding-top: 4rem;
 }
+
+.nav-menu-item {
+    display: block;
+    margin: 1vh;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    transition: var(--transition-speed);
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-menu-item {
+        text-align: right;
+        margin: 3vh;
+    }
+}
+  
+.nav-menu-item:hover {
+    color: var(--ac-primary);
+}
+
+.nav-logo {
+    z-index: 100;
+    position: fixed;
+    top: 1vh;
+    left: 1vh;
+}
+
+.nav-logo img {
+    height: 5vh;
+}
+  
+.nav-hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1vh;
+    right: 1vh;
+    background: none;
+    cursor: pointer;
+    border: none;
+    padding: 1vh;
+}
+
+.nav-hamburger img {
+    height: 5vh;
+}
+  
+.nav-close-icon {
+    display: none;
+}
   
 .nav-show-menu {
     transform: translateY(0);
@@ -82,4 +102,5 @@ main {
     width: 100%;
     height: 100%;
     background: var(--bg-secondary);
+    margin-top: 9vh;
 }
