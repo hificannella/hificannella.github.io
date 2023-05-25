@@ -25,6 +25,18 @@ body {
     background: black;
 }
 
+@media only screen and (max-width: 600px) {
+    .navbar-desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar {
+        display: none;
+    }
+}
+
 /* Navigation Bar */
 
 .nav-logo img {
@@ -116,6 +128,48 @@ body {
     transform: translateY(0);
 }
 
+/* Desktop Navigation Bar */
+
+.navbar-desktop-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    position: fixed;
+    height: 7vh;
+    grid-template-columns: 1fr auto auto auto auto auto auto auto;
+    grid-template-rows: 1fr;
+    background: black;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.navbar-desktop-item a {
+    color: white;
+    transition: var(--transition-speed);
+}
+
+.navbar-desktop-item:hover {
+    font-weight: bold;
+}
+
+.navbar-desktop-item img {
+    vertical-align: bottom;
+    height: 5vh;
+    filter: invert(1);
+}
+
+.navbar-desktop-item {
+    padding: 0 2vh;
+}
+
+.navbar-desktop-item:nth-child(1) {
+    justify-self: start;
+}
+
 /* Main Content */
 
 main {
@@ -204,16 +258,6 @@ main {
     background: black;
     color: white;
     text-align: center;
-}
-
-.speciali-section-item:nth-child(5) input{
-    height: 5vh;
-    border-radius: 2.5vh;
-    padding: 1% 5vh;
-    background: white;
-    border: solid black;
-    text-align: center;
-    color: black;
 }
 
 /* LABORATORIO SECTION */
