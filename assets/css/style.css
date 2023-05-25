@@ -18,7 +18,11 @@
 
 a {
     text-decoration: none;
-    color: blue;
+    color: #3a86ff;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 body {
@@ -246,7 +250,7 @@ main {
     text-transform: uppercase;
 }
 
-.speciali-section-item:nth-child(1) h3:nth-child(2) {
+.speciali-section-item:nth-child(1) h1:nth-child(2) {
     color: var(--ac-primary);
 }
 
