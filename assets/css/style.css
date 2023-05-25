@@ -104,17 +104,12 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     transition: var(--transition-speed);
+    text-align: right;
+    margin: 3vh;
 }
 
 .nav-menu-item:hover {
     color: var(--ac-primary);
-}
-
-@media only screen and (max-width: 600px) {
-    .nav-menu-item {
-        text-align: right;
-        margin: 3vh;
-    }
 }
 
 .nav-show-menu {
@@ -128,6 +123,18 @@ main {
     height: 100%;
     background: black;
     margin-top: 5vh;
+}
+
+@media only screen and (min-width: 600px) {
+    .mobile-landing {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .desktop-landing {
+        display: none;
+    }
 }
 
 /* section Waves Link */
@@ -149,6 +156,7 @@ main {
     grid-column: 1;
     grid-row: 1;
     text-align: center;
+    padding-bottom: .5vh;
 }
 
 .waves-link-item p {
@@ -189,8 +197,8 @@ main {
 }
 
 .speciali-section-item:nth-child(4) input{
-    height: 4vh;
-    border-radius: 4vh;
+    height: 5vh;
+    border-radius: 2.5vh;
     border: none;
     padding: 1% 5vh;
     background: black;
@@ -199,38 +207,14 @@ main {
 }
 
 .speciali-section-item:nth-child(5) input{
-    height: 4vh;
-    border-radius: 4vh;
+    height: 5vh;
+    border-radius: 2.5vh;
     padding: 1% 5vh;
     background: white;
     border: solid black;
     text-align: center;
     color: black;
 }
-
-@media only screen and (min-width: 600px) {
-    .speciali-section-item h3 {
-        font-size: 2rem;
-    }
-    .speciali-section-item p {
-        font-size: 1.5rem;
-        padding: .5vh;
-        text-transform: uppercase;
-    }
-    .speciali-section-item {
-        padding: 5vh;
-    }
-    .speciali-section-item input {
-        font-size: 1.3rem;
-    }
-    .speciali-section-item:nth-child(4) input {
-        height: 7vh;
-    }
-    .speciali-section-item:nth-child(5) input {
-        height: 7vh;
-    }
-}
-
 
 /* LABORATORIO SECTION */
 
@@ -252,11 +236,86 @@ main {
     padding: 1vh;
 }
 
-@media only screen and (min-width: 600px) {
-    .laboratorio-section-item h1 {
-        font-size: 2rem;
-    }
-    .laboratorio-section-item p {
-        font-size: 1.5rem;
-    }
+/* PROGETTAZIONE SECTION */
+
+.progettazione-section-container {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 5vh 10%;
+}
+
+.progettazione-section-item {
+    padding: 1vh;
+}
+
+/* CONSULENZA SECTION */
+
+.consulenza-section-container {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5vh 10%;
+}
+
+.consulenza-section-item {
+    padding: 1vh;
+}
+
+/* INSTALLAZIONE SECTION */
+
+.installazione-section-container {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 5vh 10%;
+}
+
+.installazione-section-item {
+    padding: 1vh;
+}
+
+/* PERSONALIZZA SECTION */
+
+.personalizza-section-container {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5vh 10%;
+}
+
+.personalizza-section-item {
+    padding: 1vh;
 }
