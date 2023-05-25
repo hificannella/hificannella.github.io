@@ -33,6 +33,10 @@ body {
     background: white;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .navbar-desktop {
         display: none;
