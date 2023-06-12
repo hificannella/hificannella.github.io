@@ -318,19 +318,25 @@ main {
     display: grid;
     height: auto;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center;
     color: black;
-    background-color: white;
+    background: white;
     text-align: center;
-    padding: 5vh 10%;
+    padding: 0 0 0 0;
 }
 
-.progettazione-section-item {
-    padding: 1vh;
+.progettazione-section-item:nth-child(1) p {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.progettazione-section-item img {
+    width: 100%;
+    vertical-align: bottom;
 }
 
 /* CONSULENZA SECTION */
@@ -339,19 +345,25 @@ main {
     display: grid;
     height: auto;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center;
     color: white;
-    background-color: black;
+    background: black;
     text-align: center;
-    padding: 5vh 10%;
+    padding: 0 0 0 0;
 }
 
-.consulenza-section-item {
-    padding: 1vh;
+.consulenza-section-item:nth-child(1) p {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.consulenza-section-item img {
+    width: 100%;
+    vertical-align: bottom;
 }
 
 /* INSTALLAZIONE SECTION */
@@ -360,19 +372,25 @@ main {
     display: grid;
     height: auto;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center;
     color: black;
-    background-color: white;
+    background: white;
     text-align: center;
-    padding: 5vh 10%;
+    padding: 0 0 0 0;
 }
 
-.installazione-section-item {
-    padding: 1vh;
+.installazione-section-item:nth-child(1) p {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.installazione-section-item img {
+    width: 100%;
+    vertical-align: bottom;
 }
 
 /* PERSONALIZZA SECTION */
@@ -381,20 +399,28 @@ main {
     display: grid;
     height: auto;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center;
     color: white;
-    background-color: black;
+    background: black;
     text-align: center;
-    padding: 5vh 10%;
+    padding: 0 0 0 0;
 }
 
-.personalizza-section-item {
-    padding: 1vh;
+.personalizza-section-item:nth-child(1) p {
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
+
+.personalizza-section-item img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+/* FOOTER MOBILE */
 
 .mobile-footer-container {
     padding: 20%;
