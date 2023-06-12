@@ -203,6 +203,18 @@ main {
     }
 }
 
+@media only screen and (min-width: 600px) {
+    .mobile-scopri {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .desktop-scopri {
+        display: none;
+    }
+}
+
 /* section Waves Link */
 
 .waves-link-container {
