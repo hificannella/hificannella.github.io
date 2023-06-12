@@ -469,7 +469,7 @@ main {
     justify-items: center;
     align-content: center;
     align-items: center;
-    padding: 10% 0 10% 0;
+    padding: 5% 0 5% 0;
 }
 
 .desktop-hero-item h1 {
@@ -494,4 +494,49 @@ main {
     color: black;
     text-align: center;
     font-weight: bold;
+}
+
+/* Reseller Section */
+
+.desktop-reseller-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    padding: 5% 0 5% 0;
+    text-align: center;
+}
+
+.desktop-reseller-item h2 {
+    font-size: 32px;
+    padding: 0 0 5% 0;
+}
+
+.desktop-reseller-item h3 {
+    padding: 1vh;
+}
+
+.desktop-reseller-item:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desktop-reseller-item:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* GRID SECTION */
+
+.masonry-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
 }
