@@ -291,7 +291,7 @@ main {
     display: grid;
     height: auto;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     justify-items: center;
     align-content: center;
@@ -299,11 +299,17 @@ main {
     color: white;
     background: black;
     text-align: center;
-    padding: 5vh 10%;
+    padding: 0 0 0 0;
 }
 
-.laboratorio-section-item {
-    padding: 1vh;
+.laboratorio-section-item:nth-child(1) p {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.laboratorio-section-item img {
+    width: 100%;
+    vertical-align: bottom;
 }
 
 /* PROGETTAZIONE SECTION */
