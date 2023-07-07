@@ -432,29 +432,6 @@ main {
     vertical-align: bottom;
 }
 
-/* FOOTER MOBILE */
-
-.mobile-footer-container {
-    padding: 20%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
-    align-items: center;
-    background-color: black;
-}
-
-.mobile-footer-container img {
-    height: 5vh;
-}
-
-@media only screen and (min-width: 600px) {
-    .mobile-footer-container {
-        display: none;
-    }    
-}
-
 /* DESKTOP LANDING */
 
 /* Hero Section */
@@ -463,6 +440,7 @@ main {
     text-align: center;
     background: black;
     color: white;
+    padding: 20px;
 }
   
 .hero-container .title {
@@ -527,6 +505,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
+    padding: 20px;
 }
   
 .grid-container .card {
