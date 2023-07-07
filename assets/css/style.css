@@ -455,6 +455,8 @@ main {
 }
   
 .hero-container .button {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     display: block;
     margin-top: 20px;
     margin-left: auto;
