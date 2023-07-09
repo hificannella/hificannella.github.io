@@ -11,14 +11,6 @@
     padding: 0;
 }
 
-body {
-    background: black;
-}
-
-a {
-    text-decoration: none;
-}
-
 @media only screen and (max-width: 768px) {
     .navbar-desktop {
         display: none;
@@ -144,6 +136,7 @@ a {
 .navbar-desktop-item a {
     color: white;
     transition: var(--transition-speed);
+    text-decoration: none;
 }
 
 .navbar-desktop-item a:hover {
@@ -407,29 +400,33 @@ main {
 /* Hero Section */
 
 .hero-container {
-    text-align: center;
     background: black;
     color: white;
-    padding: 20px;
+    padding: 100px 20% 100px 20%;
+    margin: 20px;
+    border-radius: 5px;
 }
   
 .hero-container .title {
     display: inline-block;
     margin: 0 10px;
-    font-size: 24px;
+    font-size: 36px;
+    text-transform: uppercase;
 }
   
 .hero-container .paragraph {
     margin-top: 20px;
+    margin-left: 10px;
     font-size: 18px;
 }
   
 .hero-container .button {
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
     display: block;
     margin-top: 20px;
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: auto;
     padding: 10px 20px;
     background-color: #333;
@@ -438,6 +435,12 @@ main {
     border-radius: 3px;
     font-size: 16px;
     cursor: pointer;
+    transition: var(--transition-speed);
+}
+
+.hero-container .button:hover {
+    color: black;
+    background-color: var(--ac-primary);
 }
   
 
@@ -446,6 +449,8 @@ main {
 .reseller-section {
     text-align: center;
     padding: 50px 0;
+    margin: 20px 20px 0 20px;
+    border-radius: 5px;
     background-color: #f2f2f2;
 }
   
@@ -462,12 +467,19 @@ main {
 }
   
 .reseller-section .subtitle {
+    cursor: default;
     font-size: 24px;
     margin: 10px;
     padding: 10px 20px;
+    background-color: var(--ac-primary);
+    color: #000;
+    border-radius: 5px;
+    transition: var(--transition-speed);
+}
+
+.reseller-section .subtitle:hover {
     background-color: #333;
     color: #fff;
-    border-radius: 5px;
 }
   
 
@@ -508,11 +520,18 @@ main {
   
 .grid-container .card-link {
     display: inline-block;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--ac-primary);
+    color: #000;
+    font-weight: bold;
     padding: 5px 10px;
     border-radius: 3px;
     text-decoration: none;
+    transition: var(--transition-speed);
+}
+
+.grid-container .card-link:hover {
+    background-color: #333;
+    color: #fff;
 }
 
 .grid-container .card:nth-child(5) {
@@ -526,6 +545,8 @@ main {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    margin: 0 20px 20px 20px;
+    border-radius: 5px;
   }
   
 .footer .icon-container {
