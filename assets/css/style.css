@@ -65,7 +65,7 @@ body {
     padding: 5px 10px;
     text-decoration: none;
     transition: var(--transition-speed);
-    background-color: black;
+    background-color: transparent;
     color: white;
     border-radius: 3px;
     border: solid white;
@@ -73,8 +73,9 @@ body {
 
 .grid-container .card:nth-child(1) {
     grid-column: 1;
-    background: black;
     color: white;
+    background-image: url(../img/landing-images/laboratorio.jpg);
+    background-size: cover;
 }
 
 .grid-container .card:nth-child(2) {
@@ -98,14 +99,17 @@ body {
     color: white;
 }
 
+.grid-container .card:nth-child(1) .card-link {
+    color: white;
+    border-color: white;
+}
+
 .grid-container .card:nth-child(2) .card-link {
-    background-color: #f2f2f2;
     color: black;
     border-color: black;
 }
 
 .grid-container .card:nth-child(3) .card-link {
-    background-color: #f2f2f2;
     color: black;
     border-color: black;
 }
@@ -150,12 +154,10 @@ body {
         grid-row: 5;
     }
     .grid-container .card:nth-child(4) .card-link {
-        background-color: #f2f2f2;
         color: black;
         border-color: black;
     }
     .grid-container .card:nth-child(3) .card-link {
-        background-color: black;
         color: white;
         border-color: white;
     }
