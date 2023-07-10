@@ -219,6 +219,72 @@ body {
     border-color: white;
 }
 
+/* Who We Are */
+
+.who-section {
+    text-align: center;
+    color: white;
+    padding: 10%;
+    max-width: 1000px;
+    margin: auto;
+}
+  
+.who-section .section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+  
+.who-section .section-text {
+    font-size: 16px;
+    text-align: justify;
+    margin: 20px 0 20px 0;
+}
+
+.who-section hr {
+    border: solid white 1px;
+}
+
+.achievement-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10%;
+}
+  
+.achievement-section .section-content {
+    display: flex;
+    flex-direction: row;
+}
+  
+.achievement-section .content-left {
+    width: 50%;
+}
+  
+.achievement-section .content-right {
+    width: 50%;
+}
+  
+.achievement-section .section-title {
+    font-size: 24px;
+}
+  
+.achievement-section .section-text {
+    font-size: 16px;
+}
+  
+.achievement-section .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+  
+.achievement-section .image-grid img {
+    width: 100%;
+    height: auto;
+}  
+
 /* Footer */
 
 .footer {
