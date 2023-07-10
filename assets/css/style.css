@@ -169,6 +169,11 @@ body {
     grid-template-columns: repeat(1, 1fr);
 }
 
+.discover .card {
+    background: fixed;
+    background-position: bottom;
+}
+
 .discover .card-content {
     text-align: left;
 }
