@@ -15,7 +15,7 @@ body {
     background: #000;
 }
 
-/* Hero Section */
+/* Hero */
 
 .hero-container {
     background: black;
@@ -74,7 +74,7 @@ body {
     border-color: #000;
 }
 
-/* GRID SECTION */
+/* Grid */
 
 .grid-container {
     display: grid;
