@@ -76,6 +76,7 @@ body {
     color: white;
     background-image: url(../img/landing-images/laboratorio.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .grid-container .card:nth-child(2) {
@@ -167,11 +168,6 @@ body {
 
 .discover {
     grid-template-columns: repeat(1, 1fr);
-}
-
-.discover .card {
-    background: fixed;
-    background-position: bottom;
 }
 
 .discover .card-content {
