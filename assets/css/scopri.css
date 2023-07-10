@@ -2,6 +2,18 @@
     grid-template-columns: repeat(1, 1fr);
 }
 
+.grid-container .card-content {
+    text-align: left;
+}
+
+.grid-container .card:nth-child(2) .card-content {
+    text-align: right;
+}
+
+.grid-container .card:nth-child(4) .card-content {
+    text-align: right;
+}
+
 .grid-container .card:nth-child(1) {
     grid-column: 1;
 }
@@ -12,13 +24,21 @@
 
 .grid-container .card:nth-child(3) {
     grid-column: 1;
+    background: black;
+    color: white;
 }
 
 .grid-container .card:nth-child(4) {
     grid-column: 1;
+    background: #f2f2f2;
+    color: black;
 }
 
 .grid-container .card:nth-child(5) {
     grid-column: 1;
     grid-row: 5;
+}
+
+.grid-container .card:nth-child(5) .card-content {
+    padding-top: 10%;
 }

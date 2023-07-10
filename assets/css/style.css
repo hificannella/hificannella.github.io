@@ -118,11 +118,13 @@ body {
   
 .grid-container .card-link {
     display: inline-block;
-    color: rgb(143, 188, 255);
     font-weight: bold;
     padding: 5px 10px;
     text-decoration: none;
     transition: var(--transition-speed);
+    background-color: var(--ac-primary);
+    border-radius: 3px;
+    color: #000;
 }
 
 .grid-container .card:nth-child(1) {
