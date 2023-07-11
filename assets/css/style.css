@@ -369,7 +369,7 @@ body {
 	font-weight: 300;
 	color: #bbbbbb;
 	display: block;
-	transition: all 0.3s ease;
+	transition: var(--transition-speed);
 }
 
 .footer-col ul li a:hover {
@@ -381,26 +381,25 @@ body {
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background-color: #bbbbbb;
 	margin:0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
-	border-radius: 50%;
-	transition: all 0.5s ease;
+	transition: var(--transition-speed);
 }
 
-.footer-col .social-links a:hover{
-	background-color: var(--ac-primary);
+.footer-col .social-links a img {
+    width: 40px;
+    vertical-align: bottom;
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
     }
 }
 
-@media(max-width: 574px) {
+@media (max-width: 574px) {
   .footer-col {
     width: 100%;
     }
