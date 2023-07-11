@@ -83,12 +83,12 @@ body {
 
 .grid-container .card:nth-child(2) {
     grid-column: 2;
-    background-image: url(../img/landing-images/laboratorio-light.jpg);
+    background-image: url(../img/landing-images/progettazione.jpg);
 }
 
 .grid-container .card:nth-child(3) {
     grid-column: 1;
-    background-image: url(../img/landing-images/laboratorio-light.jpg);
+    background-image: url(../img/landing-images/progettazione.jpg);
 }
 
 .grid-container .card:nth-child(4) {
@@ -101,7 +101,7 @@ body {
     grid-column: 3 / span 4;
     grid-row: 1 / span 2;
     color: white;
-    background-image: url(../img/landing-images/laboratorio.jpg);
+    background-image: url(../img/landing-images/waves.jpg);
 }
 
 .grid-container .card:nth-child(1) .card-link {
