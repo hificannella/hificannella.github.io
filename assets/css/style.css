@@ -28,6 +28,9 @@ nav header {
   
 nav .logo {
     margin-right: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
 }
   
 .nav__links {
