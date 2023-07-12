@@ -22,7 +22,7 @@ nav header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 40px 30px 50px;
+    padding: 30px 50px;
     background-color: black;
 }
   
@@ -36,7 +36,10 @@ nav .logo {
 @media (max-width: 600px) {
     nav .logo h1 {
         font-size: 20px;
-    }    
+    }
+    nav header {
+        padding: 30px 40px 30px 50px;
+    } 
 }
   
 .nav__links {
