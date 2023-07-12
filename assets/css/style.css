@@ -69,7 +69,8 @@ nav .logo {
 }
   
 .cta:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: var(--ac-primary);
+    color: black;
 }
   
   /* Mobile Nav */
@@ -87,7 +88,7 @@ nav .overlay {
     top: 0;
     background-color: #111111;
     overflow-x: hidden;
-    transition: all 0.5s ease 0s;
+    transition: var(--transition-speed);
 }
   
 nav .overlay--active {
@@ -104,13 +105,13 @@ nav .overlay__content {
   
 nav .overlay a {
     padding: 15px;
-    font-size: 36px;
+    font-size: 24px;
     display: block;
-    transition: all 0.3s ease 0s;
+    transition: var(--transition-speed);
 }
   
 nav .overlay a:hover, .overlay a:focus {
-    color: #0088a9;
+    color: var(--ac-primary);
 }
 
 nav .overlay .close {
