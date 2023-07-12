@@ -19,11 +19,14 @@ body {
 /* NavBar */
 
 nav header {
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 30px 50px;
     background-color: black;
+    z-index: 99;
 }
   
 nav .logo {
