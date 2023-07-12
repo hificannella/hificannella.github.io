@@ -18,6 +18,14 @@ body {
 
 /* Hero */
 
+.hero-section {
+    margin: 20px;
+    height: 1000px;
+    background: url(../../assets/img/landing-images/hero.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
 /* Grid */
 
 .grid-container {
