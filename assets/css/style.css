@@ -82,7 +82,7 @@ body {
 .showcase .text a {
     display: inline-block;
     font-size: 1rem;
-    background: #12192c;
+    background: transparent;
     padding: 10px 30px;
     text-decoration: none;
     color: #4158D0;
