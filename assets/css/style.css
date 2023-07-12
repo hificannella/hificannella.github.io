@@ -143,7 +143,7 @@ nav .overlay .close {
     }
 }
   
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .nav__links,
     .cta {
       display: none;
@@ -240,58 +240,6 @@ nav .overlay .close {
 @media (hover:none) {
     .showcase .text a:hover {
         letter-spacing: normal;
-    }
-}
-
-/* Reseller */
-
-.reseller-section {
-    text-align: center;
-    padding: 50px 100px;
-    color: white;
-}
-  
-.reseller-section .section-title {
-    font-size: 24px;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-}
-  
-.reseller-section .subtitle-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-  
-.reseller-section .subtitle {
-    text-transform: uppercase;
-    cursor: default;
-    font-size: 18px;
-    margin: 10px;
-    padding: 10px 20px;
-    color: white;
-    border: solid white;
-    border-radius: 3px;
-    transition: var(--transition-speed);
-}
-
-.reseller-section .subtitle:hover {
-    background-color: var(--ac-primary);
-    color: black;
-    border: solid black;
-}
-
-@media only screen and (max-width: 600px) {
-    .reseller-section {
-        text-align: left;
-        padding-left: 50px;
-    }
-    .reseller-section .subtitle-container {
-        justify-content: start;
-    }
-    .reseller-section .subtitle {
-        margin-left: 0;
     }
 }
 
