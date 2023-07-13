@@ -180,7 +180,7 @@ nav .overlay .close {
 .showcase {
     right: 0;
     width: 100%;
-    min-height: 1000px;
+    min-height: 70vh;
     padding: 100px;
     display: flex;
     justify-content: space-between;
@@ -502,7 +502,7 @@ nav .overlay .close {
 .discover {
     background-color: #111111;
     grid-template-columns: repeat(1, 1fr);
-    margin: 0;
+    padding: 20px;
 }
 
 .discover .card:nth-child(1) {
@@ -592,7 +592,6 @@ nav .overlay .close {
 /* Pagina Chi Siamo */
 
 .whoweare {
-    min-height: 70vh;
     justify-content: center;
     text-align: center;
 }
