@@ -558,7 +558,7 @@ nav .overlay .close {
     text-transform: uppercase;
     font-size: 1.4em;
     margin: 20px 0;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 @media (max-width: 600px) {
@@ -581,3 +581,32 @@ nav .overlay .close {
 }
 
 /* Pagina Chi Siamo */
+
+.chisiamo {
+    min-height: 70vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.chisiamo .text h2 {
+    margin-bottom: 10px;
+}
+
+.chisiamo .text h3 {
+    font-size: 3em;
+}
+
+.chisiamo .text p {
+    max-width: 800px;
+    margin: 20px auto;
+    hyphens: auto;
+}
+
+@media (max-width: 600px) {
+    .chisiamo {
+        text-align: left;
+    }
+    .chisiamo .text h3 {
+        font-size: 1.5em;
+    }
+}
