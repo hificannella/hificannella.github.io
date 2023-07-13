@@ -619,6 +619,9 @@ nav .overlay .close {
     .whoweare .text h3 {
         font-size: 1.5em;
     }
+    .whoweare .text p {
+        text-align: left;
+    }
 }
 
 .achievment {
