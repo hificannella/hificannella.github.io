@@ -639,3 +639,14 @@ nav .overlay .close {
     height: 100%;
     vertical-align: bottom;
 }
+
+.social-icons {
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.social-icons img {
+    vertical-align: bottom;
+}
