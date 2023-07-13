@@ -563,7 +563,14 @@ nav .overlay .close {
     font-weight: 500;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+    .discover .card-title {
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .discover .card-title {
         font-size: 2rem;
         margin-bottom: 20px;
@@ -572,13 +579,6 @@ nav .overlay .close {
     .discover .card-subtitle {
         font-size: 1rem;
         hyphens: auto;
-    }
-}
-
-@media (max-width: 1000px) {
-    .discover .card-title {
-        font-size: 4rem;
-        margin-bottom: 20px;
     }
 }
 
