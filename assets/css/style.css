@@ -625,3 +625,17 @@ nav .overlay .close {
     background-color: #fff;
     color: #111111;
 }
+
+.round-image {
+    margin: 20px auto;
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    overflow: hidden;
+}
+  
+.round-image img {
+    width: auto;
+    height: 100%;
+    vertical-align: bottom;
+}
