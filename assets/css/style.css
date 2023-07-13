@@ -590,31 +590,38 @@ nav .overlay .close {
 
 /* Pagina Chi Siamo */
 
-.chisiamo {
+.whoweare {
     min-height: 70vh;
     justify-content: center;
     text-align: center;
 }
 
-.chisiamo .text h2 {
+.whoweare .text h2 {
     margin-bottom: 10px;
 }
 
-.chisiamo .text h3 {
+.whoweare .text h3 {
     font-size: 3em;
 }
 
-.chisiamo .text p {
-    max-width: 800px;
+.whoweare .text p {
+    max-width: 1000px;
     margin: 20px auto;
     hyphens: auto;
+    text-align: justify;
 }
 
 @media (max-width: 600px) {
-    .chisiamo {
+    .whoweare {
+        padding: 50px;
         text-align: left;
     }
-    .chisiamo .text h3 {
+    .whoweare .text h3 {
         font-size: 1.5em;
     }
+}
+
+.achievment {
+    background-color: #fff;
+    color: #111111;
 }
