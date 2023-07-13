@@ -180,7 +180,7 @@ nav .overlay .close {
 .showcase {
     right: 0;
     width: 100%;
-    min-height: 80vh;
+    min-height: 1000px;
     padding: 100px;
     display: flex;
     justify-content: space-between;
