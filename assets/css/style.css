@@ -502,6 +502,7 @@ nav .overlay .close {
 .discover {
     background-color: #111111;
     grid-template-columns: repeat(1, 1fr);
+    margin: 0;
 }
 
 .discover .card:nth-child(1) {
