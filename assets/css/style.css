@@ -575,10 +575,16 @@ nav .overlay .close {
         font-size: 2rem;
         margin-bottom: 20px;
     }
-
     .discover .card-subtitle {
         font-size: 1rem;
         hyphens: auto;
+    }
+    .discover .card:nth-child(2) .card-content {
+        text-align: left;
+    }
+    
+    .discover .card:nth-child(3) .card-content {
+        text-align: left;
     }
 }
 
