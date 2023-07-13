@@ -573,4 +573,11 @@ nav .overlay .close {
     }
 }
 
+@media (max-width: 1000px) {
+    .discover .card-title {
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+}
+
 /* Pagina Chi Siamo */
