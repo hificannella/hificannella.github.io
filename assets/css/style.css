@@ -526,4 +526,25 @@ nav .overlay .close {
     grid-row: 5;
 }
 
+.discover .card:nth-child(1) .card-content {
+    text-align: left;
+}
+
+.discover .card:nth-child(2) .card-content {
+    text-align: right;
+}
+
+.discover .card:nth-child(3) .card-content {
+    text-align: right;
+}
+
+.discover .card:nth-child(4) .card-content {
+    text-align: left;
+}
+
+.discover .card:nth-child(5) .card-content {
+    text-align: left;
+}
+
+
 /* Pagina Chi Siamo */
