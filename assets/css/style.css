@@ -500,6 +500,7 @@ nav .overlay .close {
 /* Pagina Scopri */
 
 .discover {
+    width: 100%;
     background-color: #111111;
     grid-template-columns: repeat(1, 1fr);
 }
