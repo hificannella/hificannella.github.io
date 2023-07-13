@@ -713,3 +713,52 @@ nav .overlay .close {
 .social-icons img {
     vertical-align: bottom;
 }
+
+/* Pagina Servizi */
+
+.services-section {
+    background-color: #111111;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.services-section .section-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.services-section .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services-section .card {
+    background-color: #111111;
+    max-width: 300px;
+    padding: 40px;
+    margin: 20px;
+    border: solid white;
+    border-radius: 3px;
+}
+
+.services-section .icon {
+    font-size: 40px;
+}
+
+.services-section .card-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.services-section .card-subtitle {
+    font-size: 16px;
+    color: white;
+}
