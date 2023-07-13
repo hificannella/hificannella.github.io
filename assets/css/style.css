@@ -65,6 +65,7 @@ nav .logo {
 .nav__links {
     list-style: none;
     display: flex;
+    text-transform: uppercase;
 }
   
 .nav__links a, .cta, .overlay__content a {
@@ -135,6 +136,7 @@ nav .overlay__content {
 nav .overlay a {
     padding: 15px;
     font-size: 24px;
+    text-transform: uppercase;
     display: block;
     transition: var(--transition-speed);
 }
