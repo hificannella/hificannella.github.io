@@ -20,15 +20,21 @@ main {
     margin-top: 89px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1240px) {
     main {
-        margin-top: 100px;
+        margin-top: 118px;
     }
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 1000px) {
     main {
-        margin-top: 115px;
+        margin-top: 104px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    main {
+        margin-top: 108px;
     }
 }
 
@@ -89,18 +95,15 @@ nav .logo {
   
 .cta {
     margin-left: 20px;
-    padding: 9px 25px;
-    background-color: #111111;
     border: none;
-    border-radius: 50px;
+    border-radius: 50%;
     cursor: pointer;
     transition: var(--transition-speed);
     text-transform: uppercase;
 }
-  
-.cta:hover {
-    background-color: var(--ac-primary);
-    color: black;
+
+.cta img {
+    width: 40px;
 }
   
   /* Mobile Nav */
@@ -148,7 +151,7 @@ nav .overlay a:hover, .overlay a:focus {
 nav .overlay .close {
     position: absolute;
     top: 20px;
-    right: 45px;
+    right: 50px;
     font-size: 60px;
     color: #edf0f1;
     cursor: pointer;
@@ -606,7 +609,7 @@ nav .overlay .close {
 
 @media only screen and (max-width: 1000px) {
     .discover .card-title {
-        font-size: 4rem;
+        font-size: 3rem;
         margin-bottom: 20px;
     }
 }
@@ -627,6 +630,10 @@ nav .overlay .close {
     
     .discover .card:nth-child(3) .card-content {
         text-align: left;
+    }
+    .discover .card-content {
+    padding-left: 10px;
+    padding-right: 10px;
     }
 }
 
