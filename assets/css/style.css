@@ -765,3 +765,10 @@ nav .overlay .close {
     color: white;
     hyphens: auto;
 }
+
+.products {
+    background-image: url(../../assets/img/waves.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
