@@ -619,6 +619,9 @@ nav .overlay .close {
     .discover .card-subtitle {
         font-size: 1rem;
         hyphens: auto;
+        text-align: justify;
+        word-break: break-word;
+        word-spacing: -2px;
     }
     .discover .card:nth-child(2) .card-content {
         text-align: left;
@@ -762,4 +765,7 @@ nav .overlay .close {
 .services-section .card-subtitle {
     font-size: 16px;
     color: white;
+    text-align: justify;
+    word-break: break-word;
+    hyphens: auto;
 }
