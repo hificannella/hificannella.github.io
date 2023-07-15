@@ -729,6 +729,9 @@ nav .overlay .close {
     background-color: #111111;
     text-align: center;
     padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .services-section .section-title {
@@ -773,7 +776,12 @@ nav .overlay .close {
     hyphens: auto;
 }
 
-.products {
+/* Pagina Prodotti */
+
+
+/* Pagina Waves */
+
+.waves {
     background-image: url(../../assets/img/waves.jpg);
     background-size: cover;
     background-position: bottom;
