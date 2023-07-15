@@ -729,9 +729,6 @@ nav .overlay .close {
     background-color: #111111;
     text-align: center;
     padding: 50px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .services-section .section-title {
@@ -778,6 +775,13 @@ nav .overlay .close {
 
 /* Pagina Prodotti */
 
+.products .card {
+    padding: 20px;
+}
+
+.products .card-title {
+    margin: 0;
+}
 
 /* Pagina Waves */
 
