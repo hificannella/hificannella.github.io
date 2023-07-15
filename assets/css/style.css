@@ -777,10 +777,15 @@ nav .overlay .close {
 /* Pagina Prodotti */
 
 .products {
+    padding: 100px 0;
     background-image: url(../../assets/img/prodotti.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center ;
+}
+
+.products .section-title {
+    margin-bottom: 50px;
 }
 
 .products .services-container {
