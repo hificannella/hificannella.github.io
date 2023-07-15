@@ -283,7 +283,7 @@ nav .overlay .close {
     padding: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
   
 .grid-container .card-content {
@@ -775,6 +775,13 @@ nav .overlay .close {
 }
 
 /* Pagina Prodotti */
+
+.products {
+    background-image: url(../../assets/img/prodotti.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
 
 .products .services-container {
     flex-direction: column;
