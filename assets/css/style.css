@@ -704,6 +704,7 @@ nav .overlay .close {
     height: 25vh;
     border-radius: 50%;
     overflow: hidden;
+    border: solid white;
 }
   
 .round-image img {
@@ -774,6 +775,11 @@ nav .overlay .close {
 }
 
 /* Pagina Prodotti */
+
+.products .services-container {
+    flex-direction: column;
+    align-content: center;
+}
 
 .products .card {
     padding: 20px;
