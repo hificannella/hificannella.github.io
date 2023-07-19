@@ -841,8 +841,7 @@ nav .overlay .close {
     max-width: 400px;
     min-width: 400px;
     padding: 1.5rem;
-    border-radius: 3px;
-    border: solid white;
+    border-radius: 10px;
     background: #111111;
     box-shadow: -1rem 0 3rem #000;
     display: flex;
