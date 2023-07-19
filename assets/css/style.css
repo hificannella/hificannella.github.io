@@ -836,7 +836,7 @@ nav .overlay .close {
 }
 
 
-.card {
+.card-list .card {
     height: 500px;
     max-width: 400px;
     min-width: 400px;
@@ -855,28 +855,28 @@ nav .overlay .close {
     color: white;
 }
 
-.card:focus-within~.card, .card:hover~.card {
+.card-list .card:focus-within~.card, .card-list .card:hover~.card {
     transform: translateX(130px);
 }
 
-.card:hover {
+.card-list .card:hover {
     transform: translateY(-1rem);
 }
 
-.card:not(:first-child) {
+.card-list .card:not(:first-child) {
     margin-left: -130px;
 }
 
-.card-header {
+.card-list .card-header {
     margin-bottom: auto;
 }
 
-.card-header p {
+.card-list .card-header p {
     font-size: 14px;
     margin: 0 0 1rem;
 }
 
-.card-header h2 {
+.card-list .card-header h2 {
     font-size: 20px;
     margin: .25rem 0 auto;
     text-decoration: none;
@@ -886,7 +886,7 @@ nav .overlay .close {
     cursor: pointer;
 }
 
-.card-author {
+.card-list .card-author {
     margin: 3rem 0 0;
     display: grid;
     grid-template-columns: 75px 1fr;
@@ -894,14 +894,14 @@ nav .overlay .close {
     position: relative;
 }
 
-.author-avatar {
+.card-list .author-avatar {
     grid-area: auto;
     align-self: start;
     position: relative;
     box-sizing: border-box;
 }
 
-.author-avatar img {
+.card-list .author-avatar img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -911,17 +911,17 @@ nav .overlay .close {
     margin: 16px 10px;
 }
 
-.author-name {
+.card-list .author-name {
     grid-area: auto;
     box-sizing: border-box;
 }
 
-.author-name-prefix {
+.card-list .author-name-prefix {
     font-style: normal;
     font-weight: 700;
 }
 
-.half-circle {
+.card-list .half-circle {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -934,14 +934,14 @@ nav .overlay .close {
     pointer-events: none;
 }
 
-.tags {
+.card-list .tags {
     margin: 20px 0 20px;
     padding: .5rem 0 1rem;
     line-height: 2;
     margin-bottom: 0;
 }
 
-.tags a {
+.card-list .tags a {
     font-style: normal;
     font-weight: 700;
     font-size: .5rem;
@@ -958,13 +958,13 @@ nav .overlay .close {
     .card-list {
         flex-direction: column;
     }
-    .card {
+    .card-list .card {
         min-width: auto;
     }
-    .card:not(:first-child) {
+    .card-list .card:not(:first-child) {
         margin-left: -0px;
     }
-    .card {
+    .card-list .card {
         margin-bottom: 20px;
     }
 }
