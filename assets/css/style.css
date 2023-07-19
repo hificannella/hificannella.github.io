@@ -953,17 +953,27 @@ nav .overlay .close {
     position: relative;
 }
 
-@media (max-width: 600px) and (hover:none) {
+@media (max-width: 600px) {
     .card-list {
         flex-direction: column;
     }
     .card-list .card {
         min-width: auto;
     }
-    .card-list .card:not(:first-child) {
-        margin-left: -0px;
-    }
     .card-list .card {
         margin-bottom: 20px;
+    }
+}
+
+@media (hover:none) {
+    .card-list {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .card-list .card {
+        box-shadow: none;
+    }
+    .card-list .card:not(:first-child) {
+        margin-left: -0px;
     }
 }
