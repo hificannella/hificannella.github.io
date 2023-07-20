@@ -682,7 +682,7 @@ nav .overlay .close {
 
 @media (max-width: 600px) {
     .whoweare {
-        padding: 50px;
+        padding: 30px;
         text-align: left;
     }
     .whoweare .text h3 {
