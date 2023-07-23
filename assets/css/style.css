@@ -954,6 +954,12 @@ nav .overlay .close {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 440px) {
+    .form-container {
+        margin: 20px;
+    }
+}
+
 .form-container label {
     display: block;
     margin-bottom: 8px;
