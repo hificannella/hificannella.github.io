@@ -945,7 +945,7 @@ nav .overlay .close {
 .form-container {
     max-width: 400px;
     text-transform: uppercase;
-    margin: 20px auto;
+    margin: 200px auto;
     padding: 20px;
     background-color: transparent;
     color: white;
@@ -956,7 +956,7 @@ nav .overlay .close {
 
 @media (max-width: 440px) {
     .form-container {
-        margin: 20px;
+        margin: auto 20px;
     }
 }
 
