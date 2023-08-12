@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: var(--transition-speed);
 }
 
 body {
@@ -87,10 +88,6 @@ nav .logo {
     padding: 0px 20px;
 }
   
-.nav__links li a {
-    transition: var(--transition-speed);
-}
-  
 .nav__links li a:hover {
     color: var(--ac-primary);
 }
@@ -100,7 +97,6 @@ nav .logo {
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    transition: var(--transition-speed);
     text-transform: uppercase;
 }
 
@@ -123,7 +119,6 @@ nav .overlay {
     top: 0;
     background-color: #111111;
     overflow-x: hidden;
-    transition: var(--transition-speed);
 }
   
 nav .overlay--active {
@@ -143,7 +138,6 @@ nav .overlay a {
     font-size: 24px;
     text-transform: uppercase;
     display: block;
-    transition: var(--transition-speed);
 }
   
 nav .overlay a:hover, .overlay a:focus {
@@ -318,7 +312,6 @@ nav .overlay .close {
     font-weight: bold;
     padding: 5px 10px;
     text-decoration: none;
-    transition: var(--transition-speed);
     background-color: transparent;
     color: white;
     border-radius: 3px;
@@ -406,6 +399,12 @@ nav .overlay .close {
     }
 }
 
+.grid-container .card-link:hover {
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
 /* Footer */
 
 .footer .container {
@@ -464,7 +463,6 @@ nav .overlay .close {
 	font-weight: 300;
 	color: #bbbbbb;
 	display: block;
-	transition: var(--transition-speed);
 }
 
 .footer-col ul li a:hover {
@@ -479,7 +477,6 @@ nav .overlay .close {
 	margin:0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
-	transition: var(--transition-speed);
 }
 
 .footer-col .social-links a img {
@@ -540,7 +537,6 @@ nav .overlay .close {
     font-weight: bold;
     padding: 5px 10px;
     text-decoration: none;
-    transition: var(--transition-speed);
     background-color: transparent;
     color: white;
     border-radius: 3px;
