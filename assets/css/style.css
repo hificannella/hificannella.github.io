@@ -130,7 +130,8 @@ nav .overlay__content {
     height: 100%;
     flex-direction: column;
     justify-content: center;
-    margin-left: 50px;
+    margin: 0 50px;
+    text-align: center;
 }
   
 nav .overlay a {
@@ -146,8 +147,8 @@ nav .overlay a:hover, .overlay a:focus {
 
 nav .overlay .close {
     position: absolute;
-    top: 20px;
-    right: 50px;
+    top: 25px;
+    right: 25px;
     font-size: 60px;
     color: #edf0f1;
     cursor: pointer;
@@ -159,8 +160,8 @@ nav .overlay .close {
     }
     nav .overlay .close {
       font-size: 40px;
-      top: 15px;
-      right: 35px;
+      top: 5px;
+      right: 25px;
     }
 }
   
