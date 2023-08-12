@@ -405,6 +405,14 @@ nav .overlay .close {
     font-weight: 400;
 }
 
+@media (hover:none) {
+    .grid-container .card-link:hover {
+        letter-spacing: normal;
+        text-transform: none;
+        font-weight: inherit;
+    }
+}
+
 /* Footer */
 
 .footer .container {
