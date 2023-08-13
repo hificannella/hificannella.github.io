@@ -673,6 +673,7 @@ nav .overlay .close {
 .whoweare {
     justify-content: center;
     text-align: center;
+    background-image: none;
 }
 
 .whoweare .text h2 {
