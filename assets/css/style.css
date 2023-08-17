@@ -680,7 +680,6 @@ nav .overlay .close {
 .whoweare {
     justify-content: center;
     text-align: center;
-    background-image: none;
 }
 
 .whoweare .text h2 {
@@ -712,8 +711,6 @@ nav .overlay .close {
 }
 
 .achievment {
-    background-color: #fff;
-    color: #111111;
 }
 
 .round-image {
@@ -748,6 +745,8 @@ nav .overlay .close {
     background-color: #111111;
     text-align: center;
     padding: 50px 0;
+    background-image: url(../img/landing-images/pattern.svg);
+    background-size: 512px;
 }
 
 .services-section .section-title {
