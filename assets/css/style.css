@@ -186,11 +186,10 @@ nav .overlay .close {
     justify-content: space-between;
     align-items: center;
     background-color: #111111;
-    background-image: url(../img/landing-images/hero.jpg);
-    background-position: center;
-    background-size: cover;
     color: #fff;
-    transition: 0.5s;
+    background-image: url(../img/landing-images/pattern.svg);
+    background-size: 512px;
+    background-position: center;
 }
 
 .showcase .text {
@@ -206,10 +205,11 @@ nav .overlay .close {
 
 .showcase .text h3 {
     margin-top: 10px;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 700;
     line-height: 1em;
     text-transform: uppercase;
+    color: var(--ac-primary);
 }
 
 .showcase .text p {
@@ -226,18 +226,27 @@ nav .overlay .close {
     background: transparent;
     padding: 10px 30px;
     text-decoration: none;
-    color: white;
+    color: var(--ac-primary);
     margin-top: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.2s;
-    border: solid white;
+    border: solid var(--ac-primary);
     border-radius: 3px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .showcase .text a:hover {
     letter-spacing: 6px;
+}
+
+@media (max-width: 2000px) {
+    .showcase .text h2 {
+        font-size: 4em;
+    }
+    .showcase .text h3 {
+        font-size: 2em;
+    }
 }
 
 
@@ -401,9 +410,7 @@ nav .overlay .close {
 }
 
 .grid-container .card-link:hover {
-    letter-spacing: 6px;
-    text-transform: uppercase;
-    font-weight: 400;
+    background-color: var(--ac-primary);
 }
 
 @media (hover:none) {
