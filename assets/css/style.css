@@ -746,7 +746,8 @@ nav .overlay .close {
     text-align: center;
     padding: 50px 0;
     background-image: url(../img/landing-images/pattern.svg);
-    background-size: 512px;
+    background-size: 256px;
+    background-position: center;
 }
 
 .services-section .section-title {
