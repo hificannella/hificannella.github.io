@@ -410,15 +410,7 @@ nav .overlay .close {
 }
 
 .grid-container .card-link:hover {
-    background-color: var(--ac-primary);
-}
-
-@media (hover:none) {
-    .grid-container .card-link:hover {
-        letter-spacing: normal;
-        text-transform: none;
-        font-weight: inherit;
-    }
+    opacity: 0.5;
 }
 
 /* Footer */
@@ -559,6 +551,10 @@ nav .overlay .close {
     border: solid white;
 }
 
+.discover .card-link:hover {
+    opacity: 0.5;
+}
+
 .discover .card:nth-child(3) {
     order: 4;
 }
@@ -622,6 +618,12 @@ nav .overlay .close {
     font-size: 1.4em;
     margin: 20px 0;
     font-weight: 500;
+}
+
+@media (max-width: 2000px) {
+    .discover .card-title {
+        font-size: 48px;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -708,9 +710,6 @@ nav .overlay .close {
     .whoweare .text p {
         text-align: left;
     }
-}
-
-.achievment {
 }
 
 .round-image {
