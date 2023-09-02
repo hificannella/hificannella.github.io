@@ -242,7 +242,7 @@ nav .overlay .close {
 
 @media (max-width: 2000px) {
     .showcase .text h2 {
-        font-size: 3em;
+        font-size: 4em;
     }
     .showcase .text h3 {
         font-size: 2em;
@@ -410,7 +410,15 @@ nav .overlay .close {
 }
 
 .grid-container .card-link:hover {
-    opacity: 0.5;
+    background-color: var(--ac-primary);
+}
+
+@media (hover:none) {
+    .grid-container .card-link:hover {
+        letter-spacing: normal;
+        text-transform: none;
+        font-weight: inherit;
+    }
 }
 
 /* Footer */
@@ -551,10 +559,6 @@ nav .overlay .close {
     border: solid white;
 }
 
-.discover .card-link:hover {
-    opacity: 0.5;
-}
-
 .discover .card:nth-child(3) {
     order: 4;
 }
@@ -618,12 +622,6 @@ nav .overlay .close {
     font-size: 1.4em;
     margin: 20px 0;
     font-weight: 500;
-}
-
-@media (max-width: 2000px) {
-    .discover .card-title {
-        font-size: 48px;
-    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -838,28 +836,16 @@ nav .overlay .close {
     text-decoration: none;
 }
 
-.card-list::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
-.card-list::-webkit-scrollbar-thumb {
-    background: white;
-    border-radius: 10px;
-    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
-}
-
-.card-list::-webkit-scrollbar-track {
-    background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
-}
-
-
 .card-list .card {
-    height: 500px;
+    min-height: 500px;
     max-width: 400px;
     min-width: 400px;
     padding: 1.5rem;
     border-radius: 10px;
     background: #111111;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     box-shadow: -1rem 0 3rem #000;
     display: flex;
     flex-direction: column;
@@ -869,6 +855,10 @@ nav .overlay .close {
     clear: both;
     position: relative;
     color: white;
+}
+
+.card-list .card img {
+    width: 100%;
 }
 
 .card-list .card:focus-within~.card, .card-list .card:hover~.card {
@@ -922,7 +912,6 @@ nav .overlay .close {
 .card-list .tags a {
     font-style: normal;
     font-weight: 700;
-    font-size: .5rem;
     color: white;
     text-transform: uppercase;
     font-size: .66rem;
