@@ -829,6 +829,7 @@ nav .overlay .close {
     display: flex;
     padding: 20px;
     overflow-x: scroll;
+    overflow-x: hidden;
     justify-content: center;
 }
 
