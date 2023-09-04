@@ -1004,3 +1004,17 @@ nav .overlay .close {
 .form-container button:hover {
     background-color: #45a049;
 }
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+}
