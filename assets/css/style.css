@@ -678,62 +678,41 @@ nav .overlay .close {
 /* Pagina Chi Siamo */
 
 .whoweare {
-    justify-content: center;
+    background-color: #111111;
+    background-image: url(../img/landing-images/pattern.svg);
+    background-size: 512px;
+    background-position: center;
+    padding: 20px;
+}
+
+.whoweare-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    border-radius: 5px;
 }
 
-.whoweare .text h2 {
-    margin-bottom: 10px;
-}
-
-.whoweare .text h3 {
-    font-size: 3em;
-}
-
-.whoweare .text p {
-    max-width: 1000px;
-    margin: 20px auto;
-    hyphens: auto;
-    text-align: justify;
-}
-
-@media (max-width: 600px) {
-    .whoweare {
-        padding: 30px;
-        text-align: left;
-    }
-    .whoweare .text h3 {
-        font-size: 1.5em;
-    }
-    .whoweare .text p {
-        text-align: left;
-    }
-}
-
-.round-image {
-    margin: 20px auto;
-    width: 25vh;
-    height: 25vh;
+.whoweare-container .about-us-image {
+    max-width: 50%;
+    height: auto;
     border-radius: 50%;
-    overflow: hidden;
-    border: solid white;
-}
-  
-.round-image img {
-    width: auto;
-    height: 100%;
-    vertical-align: bottom;
+    margin: 20px auto;
 }
 
-.social-icons {
-    margin: 20px;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+.whoweare-container h1 {
+    color: #333;
+    margin: 20px auto;
 }
-
-.social-icons img {
-    vertical-align: bottom;
+.whoweare-container h2 {
+    color: #666;
+    margin: 20px auto;
+}
+.whoweare-container p {
+    color: #777;
+    margin: 20px auto;
 }
 
 /* Pagina Servizi */
