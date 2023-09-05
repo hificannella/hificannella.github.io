@@ -682,17 +682,18 @@ nav .overlay .close {
     background-image: url(../img/landing-images/pattern.svg);
     background-size: 512px;
     background-position: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 .whoweare-container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: transparent;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     border-radius: 5px;
+    border: solid white;
 }
 
 .whoweare-container .about-us-image {
@@ -700,19 +701,27 @@ nav .overlay .close {
     height: auto;
     border-radius: 50%;
     margin: 20px auto;
+    border: solid white;
 }
 
 .whoweare-container h1 {
-    color: #333;
+    color: white;
     margin: 20px auto;
 }
 .whoweare-container h2 {
-    color: #666;
+    color: white;
     margin: 20px auto;
+    text-transform: uppercase;
 }
 .whoweare-container p {
-    color: #777;
+    color: white;
     margin: 20px auto;
+}
+
+@media (max-width: 1000px) {
+    .whoweare-container .about-us-image {
+        max-width: 100%;
+    }
 }
 
 /* Pagina Servizi */
