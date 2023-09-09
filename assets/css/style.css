@@ -410,7 +410,7 @@ nav .overlay .close {
 }
 
 .grid-container .card-link:hover {
-    background-color: var(--ac-primary);
+    opacity: 0.5;
 }
 
 @media (hover:none) {
@@ -498,6 +498,10 @@ nav .overlay .close {
 .footer-col .social-links a img {
     width: 40px;
     vertical-align: bottom;
+}
+
+.footer-col .social-links a:hover {
+    transform: translateY(-5px);
 }
 
 @media (max-width: 767px) {
