@@ -1008,5 +1008,5 @@ nav .overlay .close {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: white;
+    background: var(--ac-primary);
 }
