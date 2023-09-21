@@ -1016,3 +1016,14 @@ nav .overlay .close {
 ::-webkit-scrollbar-thumb {
     background: var(--ac-primary);
 }
+
+#anchor1,#anchor2,#anchor3,#anchor4,#anchor5 {
+    position: absolute;
+    transform: translateY(-600px);
+}
+
+@media (max-width: 1000px) {
+    #anchor1,#anchor2,#anchor3,#anchor4,#anchor5 {
+        transform: translateY(-400px);
+    }
+}
