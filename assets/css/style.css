@@ -1022,8 +1022,8 @@ nav .overlay .close {
     transform: translateY(-600px);
 }
 
-@media (max-width: 1000px) {
+@media (max-height: 700px) {
     #anchor1,#anchor2,#anchor3,#anchor4,#anchor5 {
-        transform: translateY(-500);
+        transform: translateY(-500px);
     }
 }
